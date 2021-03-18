@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="..\..\Cplusplus\Cplusplus\test.cpp" />
     <ClCompile Include="..\..\Cplusplus\Cplusplus\week3.cpp" />
+    <ClCompile Include="rockpapaerscissors.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
