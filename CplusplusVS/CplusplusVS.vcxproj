@@ -143,6 +143,7 @@
     <ClCompile Include="..\..\Cplusplus\Cplusplus\week3.cpp" />
     <ClCompile Include="bubblesort.cpp" />
     <ClCompile Include="jiminYoo.cpp" />
+    <ClCompile Include="pointer_practice.cpp" />
     <ClCompile Include="rockpapaerscissors.cpp" />
     <ClCompile Include="todaydate.cpp" />
   </ItemGroup>
