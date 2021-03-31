@@ -30,9 +30,6 @@
     <ClCompile Include="jiminYoo.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="bubblesort.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="pointer_practice.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -40,6 +37,9 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="prac.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Week5\regtangle.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

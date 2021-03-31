@@ -141,13 +141,13 @@
   <ItemGroup>
     <ClCompile Include="..\..\Cplusplus\Cplusplus\test.cpp" />
     <ClCompile Include="..\..\Cplusplus\Cplusplus\week3.cpp" />
-    <ClCompile Include="bubblesort.cpp" />
     <ClCompile Include="chapter2practice.cpp" />
     <ClCompile Include="jiminYoo.cpp" />
     <ClCompile Include="pointer_practice.cpp" />
     <ClCompile Include="prac.cpp" />
     <ClCompile Include="rockpapaerscissors.cpp" />
     <ClCompile Include="todaydate.cpp" />
+    <ClCompile Include="Week5\regtangle.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

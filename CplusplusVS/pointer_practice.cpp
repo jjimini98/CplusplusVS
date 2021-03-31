@@ -33,17 +33,17 @@
 //}
 
 // * 연산자 : 변수 앞에 붙어서 변수에 저장된 값을 전달한다.
-#include <iostream>
-using namespace std;
-
-int main(void) {
-
-	int *a, b , c;
-	a = &b; 
-	b = 30;
-	c = *a;
-	cout << "a의 값은 " << a << "b의 값은" << b << "c의 값은" << c << endl; 
-
-
-
-}
+//#include <iostream>
+//using namespace std;
+//
+//int main(void) {
+//
+//	int *a, b , c;
+//	a = &b; 
+//	b = 30;
+//	c = *a;
+//	cout << "a의 값은 " << a << "b의 값은" << b << "c의 값은" << c << endl; 
+//
+//
+//
+//}
