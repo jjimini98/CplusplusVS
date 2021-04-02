@@ -42,5 +42,11 @@
     <ClCompile Include="Week5\regtangle.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Week5\initialfunction.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Week5\inital_practice.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
