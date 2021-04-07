@@ -150,6 +150,9 @@
     <ClCompile Include="Week5\inital_practice.cpp" />
     <ClCompile Include="Week5\initialfunction.cpp" />
     <ClCompile Include="Week5\regtangle.cpp" />
+    <ClCompile Include="Week5\접근지정자.cpp" />
+    <ClCompile Include="Week6\array.cpp" />
+    <ClCompile Include="Week6\dynamic.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
