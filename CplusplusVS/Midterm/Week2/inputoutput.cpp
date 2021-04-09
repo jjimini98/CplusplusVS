@@ -19,7 +19,7 @@
 // 2. printf 예시
 
 //#include <stdio.h>
-//#include <string>
+//#include <cstring>
 //
 //using namespace std;
 //
@@ -33,6 +33,8 @@
 //}
 //
 //
+
+
 
 //3. printf 함수 예시
 
@@ -92,3 +94,81 @@
 //
 //
 //}
+
+//5. 8진수/ 16진수
+
+//#include <stdio.h>
+//#include <stdlib.h>
+//
+//int main(void) {
+//	printf("%d %x %o \n", 19, 19, 19);
+//	printf("%d %x %o\n", 0x1c, 0x1c, 0x1c); // 28 1c 34
+//	printf("%d %x %o\n", 017, 017, 017); // 15 f 17
+//	printf("%d\n", 11 + 0x11 + 011); // 37
+//	printf("%x\n", 2097151); // 0x1fffff
+//	printf("%d\n", 0x1FfFFf); // 2097151
+//	printf("%#d %#x %#o\n\n", 19, 19, 19); // 19 0x13 023
+//	int a;
+//	printf("Type a hexadecimal number : ");
+//	scanf_s("%x", &a);
+//	printf("The number is %#o in octal number.\n", a);
+//	system("pause");
+//
+//}
+//
+
+// 6. C언어의 입출력 연습
+//#include <stdio.h>
+//#include <stdlib.h>
+//
+//
+//int main(void) {
+//
+//	printf("%d\n", "jimin");
+//
+//
+//
+//}
+
+
+// 7. C++입출력연습
+//#include <iostream>
+//
+//int main(void) {
+//
+//
+//	int n = 3;
+//	char c = '#';
+//	std::cout << c << 5.5 << '-' << n << "hello" << true;
+//	std::cout << "hello\n"; 
+//}
+
+// 8. C++ 함수 입출력 연습 
+//#include <iostream>
+//
+//double area(int r);  //함수의 원형을 선언
+//
+//double area(int r) { return 3.14 * r * r; } // 함수 구현 
+//
+//int main(void) {
+//	int n = 2;
+//	char c = '#';
+//	std::cout << c << "Lec2" << '-' << "ex" << true + 1 << std::endl;
+//	std::cout << "면적은" << area(n);
+//}
+// 암호를 입력받아 맞으면 종료 틀리면 경고문
+// 
+#include <iostream>
+#include <cstring>
+using namespace std;
+
+int main(void) {
+	char passwd[4];
+	while (true) {
+		cout << "암호를 입력하세요>";
+		cin >> passwd;
+		if (strcmp(passwd ,"C++")==0) { cout << "프로그램을 정상종료합니다" << endl; break; }
+		else cout << "암호가 틀립니다\n";
+
+	}
+} 
