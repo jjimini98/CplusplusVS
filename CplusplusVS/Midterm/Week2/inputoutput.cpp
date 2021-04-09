@@ -76,19 +76,19 @@
 //}
 
 //4.  자료형 범위 확인
-#include <stdio.h>
-#include <stdlib.h>
-#include <limits.h>
-#include <float.h>
-
-int main(void) {
-
-	printf("Min value of short = %d \n", SHRT_MIN); //short 형의 범위 중 최소값
-	printf("Max value of int = %d \n", INT_MAX);
-	printf("Max value of float = %g \n", FLT_MAX);
-	printf("Min value of double = %g\n", DBL_MIN);
-	
-	system("pause");
-
-
-}
+//#include <stdio.h>
+//#include <stdlib.h>
+//#include <limits.h>
+//#include <float.h>
+//
+//int main(void) {
+//
+//	printf("Min value of short = %d \n", SHRT_MIN); //short 형의 범위 중 최소값
+//	printf("Max value of int = %d \n", INT_MAX);
+//	printf("Max value of float = %g \n", FLT_MAX);
+//	printf("Min value of double = %g\n", DBL_MIN);
+//	
+//	system("pause");
+//
+//
+//}
