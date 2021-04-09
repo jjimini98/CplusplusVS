@@ -139,14 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Cplusplus\Cplusplus\test.cpp" />
-    <ClCompile Include="..\..\Cplusplus\Cplusplus\week3.cpp" />
-    <ClCompile Include="chapter2practice.cpp" />
-    <ClCompile Include="jiminYoo.cpp" />
-    <ClCompile Include="pointer_practice.cpp" />
-    <ClCompile Include="prac.cpp" />
-    <ClCompile Include="rockpapaerscissors.cpp" />
-    <ClCompile Include="todaydate.cpp" />
+    <ClCompile Include="Midterm\Week2\inputoutput.cpp" />
     <ClCompile Include="Week5\inital_practice.cpp" />
     <ClCompile Include="Week5\initialfunction.cpp" />
     <ClCompile Include="Week5\regtangle.cpp" />
